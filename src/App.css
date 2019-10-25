@@ -1,22 +1,40 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  background-image: url('https://i.imgur.com/lRpHZjr.png');
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  position:relative;
+}
+
+.App-header .upperContainer{
+  width:100%;
+  height:25%;
+  display:flex;
+}
+
+.App-header .logoContainer{
+  width:45%;
+}
+.App-header .logoContainer img{
+  width:50%;
+}
+
+
+.App-header .navContainer{
+  display:flex;
+  flex-direction:row;
+  width:60%;
 }
 
 .App-link {
   color: #09d3ac;
 }
+
